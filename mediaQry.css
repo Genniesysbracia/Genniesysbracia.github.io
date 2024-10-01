@@ -1,0 +1,118 @@
+
+@media screen and (min-width: 360px) and (max-width: 500px){
+    .body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(to bottom, #6a93d4, #e39ba7, #f0d58a);
+        height: auto;
+        width: 100%;
+        color: #333;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    header {
+        width: 100vw;
+        background: white;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 2px;
+        margin-left: 2px;
+        padding: 0 10px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .hamburger {
+        display: block;
+    }
+    .logo {
+        font-family: auto;
+        font-size: 1.5rem;
+    }
+    .nav-links {
+        font-family: auto;
+        font-size: 16px;
+        display: none;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: #f1f1f1;
+        text-align: center;
+        position: absolute;
+        width: 360px;
+        width: 430px;
+        top: 48px;
+        left: 0;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    #menu-toggle:checked + .hamburger + .nav-links {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-section {
+        font-family: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        max-width: 100%;
+        margin: 75px auto 0;
+        padding: 10px;
+        align-items: center;
+    }
+
+    .home-text {
+        text-align: left;
+        padding: 20px 10px;
+    }
+
+    .home-text h1 {
+        font-size: 2rem;
+        
+    }
+    .home-text p{
+        font-family: auto;
+        font-size: 1rem;
+    }
+
+    .profile img {
+        margin-top:100px;
+        height: 200px;
+        width: 200px;
+        margin: 5px 20% auto;
+       
+    }
+
+    .home-button {
+        font-size: 1rem;
+        padding: 5px 30px;
+    }
+    .about {
+        gap: 10px;
+        margin-top: 100px;
+        margin-left: 20px;
+        padding: 20px 20px;
+        align-items: center;
+    }
+    .description  {
+        font-family: auto;
+        font-size: 20px;
+        line-height: 1.3;
+    }
+    
+    .description p {
+        font-size: 16px;
+        margin-bottom: 5px;
+        text-align: justify;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    }

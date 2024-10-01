@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@300;0,400;0,500;0,600;0,700;900&display=swa");
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #f0d58a 0%, #e39ba7 100% );
+    height: auto;
+    width: 100%;
+    color: #333;
+    background-attachment: fixed;
+    background-size: cover;
+}
+header {
+    background: white;
+    padding: 5px 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+ #menu-toggle{
+    display: none;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f0d58a;
+    margin-right: 20px;
+    font-family: auto;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav-links li a {
+    font-family: auto;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+.nav-links li a:hover {
+    color: #f0d58a;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    background-color: #333;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+    padding: 5% 10%;
+    margin: 13px 10px 13px;
+
+
+}
+
+.merged-item {
+    background-color: rgba(217, 217, 217, 16%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* Light transparent background */
+    grid-column: span 2; 
+    padding: 10px;
+    border-radius: 20px;
+    text-align:right;
+    
+}
+.merged-item h2 {
+    font-size: 24px;
+    font-family: auto;
+}
+.merged-item p {
+    font-size: 18px;
+    font-family: auto;
+    line-height: 1.6;
+}
+
+.item2,.item3, .item4 {
+    background-color: rgb(238, 198, 165);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    padding: 10px;
+    height: 200px; 
+    width: auto;
+    display: flex;
+    align-items: center;
+    width: auto;
+    justify-content: center;
+}
+
+.item2 img, .item3 img,.item4 img {
+    width: 300px;
+    height: 200px;
+}
+
+.emty-box {
+    background-color: transparent;
+    height: 250px;
+    width: 100%;
+}

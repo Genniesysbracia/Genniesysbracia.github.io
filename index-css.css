@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@300;0,400;0,500;0,600;0,700;900&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #6a93d4 28%, #e39ba7 69%, #f0d58a 100%);
+    background-attachment: fixed;
+    background-size: cover;
+    color: #333;
+}
+header {
+    background: white;
+    padding: 5px 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+ #menu-toggle{
+    display: none;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f0d58a;
+    margin-right: 20px;
+    font-family: auto;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    font-family: auto;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+
+.nav-links li a:hover {
+    color: #f0d58a;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    background-color: #333;
+}
+
+.home-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 75px;
+    max-width: 1200px;
+    margin: 150px auto;
+    padding: 10px;
+    align-items: center;
+}
+
+.home-text {
+    line-height: 1.5;
+    text-align: left;
+}
+
+.home-text h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.home-text p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.home-button {
+    display: inline-block;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 16px;
+    color: #333;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+    background-color: #F0C050;
+}
+
+.profile img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+

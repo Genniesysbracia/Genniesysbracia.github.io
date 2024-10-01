@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@300;0,400;0,500;0,600;0,700;900&display=swa");
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #6a93d4 31%, #f0d58a 99% );
+    height: 100vh;
+    width: 100%;
+    color: #333;
+}
+
+header {
+    width: 100%;
+    background: white;
+    padding: 5px 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+#menu-toggle{
+    display: none;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f0d58a;
+    margin-right: 20px;
+    font-family: auto;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    font-family: auto;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.nav-links li a:hover {
+    color: #f0d58a;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    background-color: #333;
+}
+.title{
+    color: #f0d58a;
+    padding: 90px 0 0;
+    margin-bottom: auto;
+    font-size: 24px;
+    font-family: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.polaroid-gallery{
+    width:100%;
+    max-width: 1220px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.polaroid-gallery .collection{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.polaroid-gallery .polaroid{
+    width: 20%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.polaroid-gallery .polaroid .collection-img{
+    display: block;
+    width: 100%;
+}
+.polaroid-gallery .polaroid .picture-desc{
+    position: relative;
+    margin: 0;
+    padding: 5px 5px;
+    color:#f0d58a;
+    background-color: white;
+    font-size: 12px;
+    font-family: auto;
+    
+}

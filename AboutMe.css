@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@300;0,400;0,500;0,600;0,700;900&display=swa");
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #6a93d4 0%, #e39ba7 100% );
+    height: auto;
+    width: 100%;
+    color: #333;
+    
+}
+header {
+    width: 100%;
+    background: white;
+    padding: 5px 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+#menu-toggle{
+    display: none;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f0d58a;
+    margin-right: 20px;
+    font-family: auto;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    font-family: auto;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.nav-links li a:hover {
+    color: #f0d58a;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    background-color: #333;
+}
+.about {
+    display: flex;
+    padding: 10px;
+    margin: 10% 5% 10px;
+}
+.description {
+    align-items: center;
+    text-align: justify;
+    font-family: auto;
+    padding: 10px;
+    
+}
+.description h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.description p{
+    font-size: 18px;
+}
+
+.skills {
+    margin: 5% 10% 10px;
+    font-family: auto;
+
+}
+
+.skills h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.skill {
+    margin-bottom: 15px;
+}
+
+.skill span {
+    
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.progress {
+    background-color: #dcdcdc;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    height: 30px;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #f0d58a;
+    color: white;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 30px;
+    border-radius: 5px;
+}
+
+
+@media screen and (max-width: 360px){
+    header {
+        width: 375%;
+        background: white;
+        padding: 10px 0;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    .logo {
+        font-family: auto;
+        font-size: 24px;
+        font-weight: bold;
+        color: #f0d58a;
+    
+    }
+    
+    .nav-links {
+        list-style: none;
+        display: flex;
+        margin-left: 20px;
+        gap: 10px
+    
+    }
+    .about {
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-gap: 10px;
+        padding: 10px;
+        width:150%;
+        
+    }
+    .description {
+        grid-row: 1;
+        align-items: center;
+        text-align: justify;
+        font-family: auto;
+        margin-bottom:10px;
+    }
+    .description h2{
+        font-size: 18;
+        margin-bottom: 10px;
+    }
+    .description p{
+        font-size: 12px;
+        text-align:center;
+    }
+
+    
+}
+
